@@ -14,6 +14,7 @@
 		F4DC003323EF15E300EC8CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC003223EF15E300EC8CE5 /* Assets.xcassets */; };
 		F4DC003623EF15E300EC8CE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC003523EF15E300EC8CE5 /* Preview Assets.xcassets */; };
 		F4DC003923EF15E300EC8CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC003723EF15E300EC8CE5 /* LaunchScreen.storyboard */; };
+		F4DC004123EF1E2000EC8CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC004023EF1E2000EC8CE5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F4DC003523EF15E300EC8CE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4DC003823EF15E300EC8CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4DC003A23EF15E300EC8CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DC004023EF1E2000EC8CE5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		F4DC001D23EF15E100EC8CE5 = {
 			isa = PBXGroup;
 			children = (
+				F4DC004223EF203700EC8CE5 /* Images */,
 				F4DC002823EF15E100EC8CE5 /* SAMMYSAVES */,
 				F4DC002723EF15E100EC8CE5 /* Products */,
 			);
@@ -61,6 +64,7 @@
 				F4DC002923EF15E100EC8CE5 /* AppDelegate.swift */,
 				F4DC002B23EF15E100EC8CE5 /* SceneDelegate.swift */,
 				F4DC003023EF15E100EC8CE5 /* ContentView.swift */,
+				F4DC004023EF1E2000EC8CE5 /* Main.storyboard */,
 				F4DC003223EF15E300EC8CE5 /* Assets.xcassets */,
 				F4DC003723EF15E300EC8CE5 /* LaunchScreen.storyboard */,
 				F4DC003A23EF15E300EC8CE5 /* Info.plist */,
@@ -76,6 +80,13 @@
 				F4DC003523EF15E300EC8CE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4DC004223EF203700EC8CE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 				F4DC003923EF15E300EC8CE5 /* LaunchScreen.storyboard in Resources */,
 				F4DC003623EF15E300EC8CE5 /* Preview Assets.xcassets in Resources */,
 				F4DC003323EF15E300EC8CE5 /* Assets.xcassets in Resources */,
+				F4DC004123EF1E2000EC8CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
